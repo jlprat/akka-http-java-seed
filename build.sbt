@@ -1,6 +1,6 @@
-name := "akka-http-example"
+name := "akka-http-java-seed"
 organization := "io.github.jlprat"
-version := "1.0-SNAPSHOT"
+version := "1.0.0"
 scalaVersion := "2.11.8"
 
 lazy val akkaVersion = "2.4.11"
@@ -18,3 +18,6 @@ libraryDependencies ++= Seq(
 )
 
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")
+
+
+fork in run := true
