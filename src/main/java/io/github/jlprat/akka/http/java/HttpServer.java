@@ -54,7 +54,7 @@ public class HttpServer extends AllDirectives {
         return route(
             //matches /echo paths
             pathPrefix("echo", () ->
-                //only POST method
+                //only GET method
                 get(() ->
                     //reads message form parameter
                     parameter("message", msg -> complete(msg))
