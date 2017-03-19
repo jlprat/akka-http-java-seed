@@ -3,7 +3,7 @@ organization := "io.github.jlprat"
 version := "1.0.1"
 scalaVersion := "2.12.0"
 
-lazy val akkaHttpVersion = "10.0.1"
+lazy val akkaHttpVersion = "10.0.5"
 
 libraryDependencies ++= Seq(
 
